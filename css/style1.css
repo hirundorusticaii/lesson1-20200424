@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  background-color: #eca558;
+  font-family: Helvetica ,"游ゴシック" ,"Yu Gothic";
+  color: #7b7b7b;
+  width: 100vw;
+}
+
+/* カンマで区切れば複数のタグを指定できる */
+h1,ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: white;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+}
+/* margin padding 等は一行で上下左右バラバラに指定可能、空白で区切る */
+
+.profile{
+  background-color: white;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.prof_list{
+  list-style: none;
+}
+
+.list_name{
+  background-color: #f3f3f3;
+  color: #eca558;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.list_content{
+  padding: 15px;
+}
